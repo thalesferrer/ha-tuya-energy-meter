@@ -1,0 +1,30 @@
+"""Datapoints exposed by QS-WIFI-S10-CT02."""
+
+from enum import IntEnum
+
+
+class DPS(IntEnum):
+
+    SYNC_REQUEST = 101
+    SYNC_RESPONSE = 102
+
+    CT1_STATUS = 103
+    CT1_ADD_ENERGY = 104
+    CT1_POWER = 105
+    CT1_CURRENT = 106
+    CT1_VOLTAGE = 107
+    CT1_TOTAL = 108
+    CT1_TODAY = 109
+    CT1_POWER_TYPE = 110
+    CT1_WARN_POWER = 111
+    CT1_TODAY_ADD = 112
+
+    CT2_STATUS = 113
+    CT2_ADD_ENERGY = 115
+    CT2_POWER = 116
+    CT2_VOLTAGE = 117
+    CT2_CURRENT = 118
+    CT2_POWER_TYPE = 120
+    CT2_WARN_POWER = 121
+    CT2_TOTAL = 123
+    NET_STATE = 124
