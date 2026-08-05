@@ -1,0 +1,18 @@
+{
+  "domain": "tuya_energy_meter",
+  "name": "Tuya Energy Meter",
+  "version": "0.1.0",
+  "documentation": "https://github.com/thalesferrer/ha-tuya-energy-meter",
+  "issue_tracker": "https://github.com/thalesferrer/ha-tuya-energy-meter/issues",
+  "codeowners": [
+    "@thalesferrer"
+  ],
+  "config_flow": true,
+  "iot_class": "local_polling",
+  "requirements": [
+    "tinytuya>=1.16"
+  ],
+  "loggers": [
+    "tinytuya"
+  ]
+}
